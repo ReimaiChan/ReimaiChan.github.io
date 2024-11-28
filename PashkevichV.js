@@ -1,3 +1,3 @@
 function menuclose() {
-         document.getElementById('menu_close').hidden = true
+         document.getElementById('menu').hidden = true
       }
