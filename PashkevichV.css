@@ -26,7 +26,7 @@
 
 .grd{
     display: grid;
-    grid-template-columns: [start]30% [line2]70%;
+    grid-template-columns: [start]15% [line2]85%;
 }
 
 /* Style page content */
