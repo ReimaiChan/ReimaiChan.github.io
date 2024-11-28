@@ -9,7 +9,7 @@
 <body>
 
 <!-- Навигация по сайту -->
-<div class="sidenav">
+<div id="menu" class="sidenav">
 	<button id="menu_close" onclick="menuclose()">Закрыть</button>
 	<a href="#введение">ВВЕДЕНИЕ</a>
 	<a href="#1">1 ОБЩИЕ ПРИНЦИПЫ ОРГАНИЗАЦИИ ПОИСКА ИНФОРМАЦИИ В СЕТИ ИНТЕРНЕТ</a>
