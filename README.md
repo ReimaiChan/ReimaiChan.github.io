@@ -8,9 +8,11 @@
 </head>
 <body>
 
+<div class="grd">
+
 <!-- Навигация по сайту -->
 <div id="menu" class="sidenav">
-	<button id="menu_close" onclick="menuclose()">Закрыть</button>
+	<button onclick="menuclose()">Закрыть</button>
 	<a href="#введение">ВВЕДЕНИЕ</a>
 	<a href="#1">1 ОБЩИЕ ПРИНЦИПЫ ОРГАНИЗАЦИИ ПОИСКА ИНФОРМАЦИИ В СЕТИ ИНТЕРНЕТ</a>
 	<a href="#1.1">1.1 Осуществление поиска материалов в каталогах информационных ресурсов</a>
@@ -145,6 +147,7 @@
 	<p></p>
 	<p></p>
 	<p></p>
+</div>
 </div>
 </body>
 </html>
