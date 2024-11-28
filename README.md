@@ -2,7 +2,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="PashkevichV.css">
-	<script type="text/javascript" src="laba9.js"></script>
+	<script type="text/javascript" src="PashkevichV.js"></script>
 	
 	<title>Реферат</title>
 </head>
