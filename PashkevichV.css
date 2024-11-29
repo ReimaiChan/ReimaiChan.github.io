@@ -22,7 +22,7 @@
 .sidenav_grd{
     display: grid;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    grid-template-columns: [start]80%;
+    grid-template-columns: [start]20%;
 }
 
 /* When you mouse over the navigation links, change their color */
