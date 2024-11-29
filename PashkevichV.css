@@ -1,7 +1,6 @@
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 240px; /* Set the width of the sidebar */
-    
+    width: 240px; /* Set the width of the sidebar */    
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
@@ -17,7 +16,13 @@
     font-size: 14px;
     color: #818181;
     display: block;
+    
+}
+
+.sidenav_grd{
+    display: grid;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    grid-template-columns: auto;
 }
 
 /* When you mouse over the navigation links, change their color */
