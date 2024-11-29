@@ -30,6 +30,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+    border: 1px solid #111;
+    width: auto;
+    padding: 0px 60px;
+}
+
 @media screen and (max-width: 900px) {
 .sidenav {
     width: 160px; 
