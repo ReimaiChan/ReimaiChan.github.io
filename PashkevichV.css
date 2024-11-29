@@ -1,6 +1,6 @@
 .sidenav {
     height: 100%; 
-    width: 160px; 
+    width: 180px; 
     position: fixed;
     z-index: 1;
     top: 0;
@@ -23,14 +23,14 @@
 }
 
 .main {
-    margin-left: 160px;
+    margin-left: 180px;
     padding: 0px 60px;
     text-align: justify;
 }
 
 @media screen and (max-width: 900px) {
 .sidenav {
-    width: 140px; 
+    width: 160px; 
     padding-top: 16px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .main {
-    margin-left: 140px;
+    margin-left: 160px;
     padding: 0px 40px;
     text-align: justify;
 }
