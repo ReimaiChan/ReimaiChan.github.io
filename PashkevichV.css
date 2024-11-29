@@ -1,3 +1,4 @@
+@media screen and (min-width: 1200px) {
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: auto; /* Set the width of the sidebar */    
@@ -22,7 +23,7 @@
 .sidenav_grd{
     display: grid;
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    grid-template-columns: [start]15% [line2]85%;
+    grid-template-columns: [start]30%;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -41,9 +42,43 @@
     padding: 0px 10px;
     text-align: justify;
 }
+}
 
+@media screen and (min-width: 900px) {
+    /* The navigation menu links */
+.sidenav a {
+    font-size: 12px;
+}
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px; width: 60px;}
-    .sidenav a {font-size: 10px;}
+.sidenav_grd{
+    display: grid;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    grid-template-columns: [start]28%;
+}
+}
+
+@media screen and (min-width: 720px) {
+    /* The navigation menu links */
+.sidenav a {
+    font-size: 10px;
+}
+
+.sidenav_grd{
+    display: grid;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    grid-template-columns: [start]22%;
+}
+}
+
+@media screen and (max-width: 420px) {
+    /* The navigation menu links */
+.sidenav a {
+    font-size: 6px;
+}
+
+.sidenav_grd{
+    display: grid;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    grid-template-columns: [start]14%;
+}
 }
