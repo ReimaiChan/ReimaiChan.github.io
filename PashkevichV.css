@@ -99,6 +99,10 @@ td{
     text-align: justify;
 
 }
+
+img{
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 420px) {
@@ -119,7 +123,7 @@ td{
 
 }
 
-    img{
+img{
     width: 100%;
 }
 }
