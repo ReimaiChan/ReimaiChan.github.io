@@ -52,14 +52,14 @@ table{
     border: 1px solid #111;
     border-collapse: collapse;
     width: 100%;
-    padding: 6px;
+    margin: 0;
+    padding: 0;
     text-align: left;
 }
 
 td{
     border: 1px solid #111;
-    padding: 6px;
-    marginn: 0;
+    margin: 6px;
     text-align: left;
 }
 
