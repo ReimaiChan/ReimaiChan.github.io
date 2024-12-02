@@ -48,6 +48,21 @@ img{
     padding: 0;
 }
 
+table{
+    border: 1px solid #111;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 6px;
+    text-align: left;
+}
+
+td{
+    border: 1px solid #111;
+    padding: 6px;
+    marginn: 0;
+    text-align: left;
+}
+
 @media screen and (max-width: 900px) {
 .sidenav {
     width: 160px; 
